@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header{
+    padding: 20px 0;
+   
+    
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.background img{
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    align-items:center;
+
+  }
+  
+  .logo{
+    width: 500px;
+    height: 250px;
+    position: fixed;
+    left: -100px;
+    top: -70px;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+
+  .menu {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-right: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(20, 40, 150);
+    position: fixed;
+    
+  }
+  
+  .menu a{
+    color: rgb(25, 11, 100);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+  }
+  
+  .menu a:hover{
+    color: #2e49e2;
+  }
+  
+  footer {
+    position: fixed; /* fixa o rodapé na parte inferior da janela do navegador */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* largura total */
+    background-color: #2e49e2;
+    color: #93afe4;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .main_cta{
+    width: 100%;
+    text-align: center;
+    
+   
+}
+.main_cta p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 10px 0;
+    
+    background-size: 0;
+    padding: 8px 30px;
+
+}
+
+.main_cta h3{
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    margin: 10px 0;
+    padding: 8px 30px;
+    
+}
+.main_cta h4{
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    margin: 10px 0;   
+    padding: 8px 30px;
+}
+
+.main_cta h5{
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    margin: 10px 0;   
+    padding: 8px 30px;
+}
+.main_cta h6{
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    margin: 10px 0;   
+    padding: 8px 30px;
+}
+.main_cta button{
+    background-color: #7fbdff;
+display: inline-block;
+padding: 8px 30px;
+color: white;
+border-radius: 6px;
+border: 0;
+font-size: 16px;
+cursor: pointer;
+}
+
+
+  
+
